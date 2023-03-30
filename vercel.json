@@ -1,6 +1,6 @@
 {
     "version": 2,
     "name": "edustream-back-end",
-    "buildjs" : [{"src": "server.js" , "use":"@vercel/node"}],
+    "builds" : [{"src": "server.js" , "use":"@vercel/node"}],
     "routes":[{"src":"/(.*)","dust":"/server.js"}]
 }
