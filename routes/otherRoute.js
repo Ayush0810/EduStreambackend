@@ -3,7 +3,7 @@ import {
   contact,
   courseRequest,
   getDashboardStats,
-} from "../controllers/otherController.js";
+} from "../controllers/othercontroller.js";
 
 import { authorizeAdmin, isAuthenticated } from "../middlewares/auth.js";
 

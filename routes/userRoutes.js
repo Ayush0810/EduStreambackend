@@ -15,7 +15,7 @@ import {
   updateProfile,
   updateprofilepicture,
   updateUserRole,
-} from "../controllers/userController.js";
+} from "../controllers/usercontroller.js";
 import { authorizeAdmin, isAuthenticated } from "../middlewares/auth.js";
 import singleUpload from "../middlewares/multer.js";
 
