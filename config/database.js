@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
 mongoose. set('strictQuery', false); 
-export const connectDB  = async ()=>
+export const connectDB  =  ()=>
 {
-  const { connection } = await mongoose.connect(process.env.MONGO_URI);
+  const { connection } =  mongoose.connect(process.env.MONGO_URI);
   console.log("mongoDB connected with port ",connection.host)
 }
